@@ -1,0 +1,64 @@
+<ion-view class="welcome-view pane" cache-view="false" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);">
+    <div class="bg-image">
+        <div class="bg"></div>
+        <div class="img animated"></div>
+    </div>
+    <ion-content scroll="false" class="scroll-content ionic-scroll scroll-content-false">
+        <div class="top-content row">
+            <div class="app-copy col col-center">
+                <h1 class="app-logo">W-Great</h1>
+            </div>
+        </div>
+        <div class="">
+              <label class="item item-input username inputLog">
+                <input type="text" class="inputLog" placeholder="Username" ng-model="user.username">
+              </label>
+
+              <label class="item item-input lock inputLog">
+                <input class="inputLog" 
+                type="password" placeholder="Password" ng-model="user.password">
+              </label>
+            </div>
+        
+            <button class="button button-full button-blue btn_t" ng-click="">
+                SIGN IN
+            </button>
+        </div>
+        <div class="bottom-content">
+            <div class="col col-bottom">
+                <div class="row split-actions">
+                    <div class="col">
+                        <a class="twitter-sign-in button button-block icon-left ion-social-twitter" ng-click="vm.twitterlogin()">
+                            <span class="btn-copy">Login with Twitter</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row split-actions">
+                    <div class="col">
+                        <a class="facebook-sign-in button button-block icon-left ion-social-facebook" ng-click="vm.twitterlogin()">
+                            <span class="btn-copy">Login with Facebook</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row split-actions">
+                    <div class="col">
+                        <a class="google-sign-in button button-block icon-left ion-social-google" ng-click="vm.twitterlogin()">
+                            <span class="btn-copy">Login with Google +</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        <a class="button button-block button-outline" ui-sref="auth.login" href="#/auth/login">
+                            Log In
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

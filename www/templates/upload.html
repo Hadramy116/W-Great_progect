@@ -1,0 +1,39 @@
+<ion-view view-title="upload">
+    <ion-content class="padding ground">
+        
+        <form name="phoneForm" >
+        
+                <input  type="file"
+                    required
+                    name="img"
+                   accept="image/*"
+                    multiple
+                   image="img"
+                   resize-max-height="400"
+                   resize-max-width="300"
+                   resize-quality="0.7" class="button button-outline button-stable" />
+                    
+
+                    <div class="card">
+                      <div class="item item-divider">
+                        image for world great!
+                      </div>
+                      <div >
+                        <div  ng-if="img.length != 0" ng-repeat="i in img">
+                                <img  ng-src="{{i.resized.dataURL}}" width="500px" height="300px">
+                        </div>
+                    </div>
+                      <div class="item item-divider">
+                        Protecting life
+                      </div>
+                    </div>
+
+        <label><!-- ng-if="phoneForm.$valid " -->
+       <button type="submit
+       "
+        class="button button-block button-stable"
+         ng-disabled="phoneForm.$invalid"   ng-click="alert('Thank you submited')">Submit</button>
+      </label>  
+        </form>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view view-title="{{'TAB2' | translate}}">
+    <ion-content class="padding ground" scroll="true" class="padding-bottom">
+     	<div class="padding " style="color: #eee">
+     		<label class='item-floating-label'>
+	    		Time : {{position.timestamp|date:'HH:mm:ss'}}
+	    	</label>
+	    	<label class='item-floating-label'>
+	    		Latitude : {{position.coords.latitude}}
+	    	</label>
+	    	<label class='item-floating-label'>
+	    		Longitude : {{position.coords.longitude}}
+	    	</label>
+	    </div>
+	    <div id="map" class="scroll" data-tap-disabled="true">
+	    	<ion-spinner icon="lines" class='spinner'></ion-spinner>
+	    </div>
+	    </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,14 @@
+<ion-view title="{{ 'TAB3_TITLE' | translate }}">
+<ion-content class="has-header padding ground">
+    <div class="list">
+        <ion-radio ng-model="choix" ng-value="'en-US'" ng-click="changeLanguage('en')">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        {{ 'lang_en' | translate }}
+        </ion-radio>
+        <ion-radio ng-model="choix" ng-value="'fr-fr'" ng-click="changeLanguage('fr')">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        {{ 'lang_fr' | translate }}
+        </ion-radio>
+    </div>
+</ion-content>
+</ion-view>

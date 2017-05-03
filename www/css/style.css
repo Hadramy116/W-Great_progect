@@ -1,0 +1,248 @@
+
+/* Empty. Add your own CSS if you like */
+
+html, body { height: 100%; margin: 0; padding: 0; }
+.scroll{
+	height: 100%;
+}
+
+.btn_t{
+    background-color: transparent;
+    color: white;
+}
+
+inputLog{
+    background-color: transparent;
+}
+.item-profile {
+  height: 150px;
+  .item-avatar > img:first-child {
+    max-width: 100px;
+    max-height: 100px:
+  }
+}
+
+ion-item{
+    background-color: #3f4041;
+
+}
+
+#map{
+	height: 90%;
+	width: 100%;
+	position: relative;
+    padding-bottom: 30%;
+    margin-bottom: 30%;
+}
+
+
+haut{
+
+    
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+
+}
+ #haut>img{
+    height: 200px;
+    width: 200px;
+    
+    position: center;
+ }
+
+ #menu, #menu{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+#menu li{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    background-color: #707b7d;
+    width: 90px;
+
+
+
+}
+
+#menu a{
+    display: block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 0px;
+    margin-top: 5px;
+    
+}
+
+.sideMenu{
+    background-image: url('../img/backgrounds/bg.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity 0.5s;
+}
+.ground{
+	background-image: url('../img/backgrounds/bg.jpg');
+    position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: opacity 0.5s;
+        height: 100%;
+        width: 100%;
+}
+
+.spinner svg {
+	margin-top: 150px;
+	width: 28px;
+	height: 28px;
+	/*stroke: #444;
+	fill: #444;*/
+}
+
+
+
+.welcome-view .top-content {
+    height: 40%;
+}
+
+    .welcome-view .top-content .app-copy {
+        text-align: center;
+        padding-top: 10vh;
+    }
+
+    .welcome-view .top-content .app-logo {
+        font-size: 50px;
+        font-family: cursive;
+        font-weight: 600;
+        font-style: italic;
+        color: #FFF;
+    }
+
+.welcome-view .bottom-content {
+    height: 60%;
+}
+
+    .welcome-view .bottom-content .facebook-sign-in, .welcome-view .bottom-content .google-sign-in, .welcome-view .bottom-content .twitter-sign-in {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+        .welcome-view .bottom-content .facebook-sign-in:before, .welcome-view .bottom-content .google-sign-in:before, .welcome-view .bottom-content .twitter-sign-in:before {
+            width: 30px;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .welcome-view .bottom-content .facebook-sign-in .btn-copy, .welcome-view .bottom-content .google-sign-in .btn-copy, .welcome-view .bottom-content .twitter-sign-in .btn-copy {
+            margin-left: -30px;
+        }
+
+    .welcome-view .bottom-content .google-sign-in {
+        background-color: #dd4c39;
+        border-color: rgba(220,68,48,.9);
+    }
+
+    .welcome-view .bottom-content .facebook-sign-in {
+        background-color: #294886;
+        border-color: rgba(39,68,126,.9);
+    }
+
+    .welcome-view .bottom-content .twitter-sign-in {
+        background-color: #00a3dc;
+        border-color: rgba(0,155,210,.9);
+    }
+
+    .welcome-view .bottom-content .split-actions {
+        padding: 0;
+    }
+
+        .welcome-view .bottom-content .split-actions .col {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+            .welcome-view .bottom-content .split-actions .col:first-child {
+                padding-left: 0;
+            }
+
+            .welcome-view .bottom-content .split-actions .col:last-child {
+                padding-right: 0;
+            }
+
+        .welcome-view .bottom-content .split-actions .button-outline {
+            color: #FFF;
+            border-color: #FFF;
+            font-weight: 500;
+        }
+
+    .welcome-view .bottom-content .other-options-outer .ng-cloak, .welcome-view .bottom-content .other-options-outer .x-ng-cloak, .welcome-view .bottom-content .other-options-outer [data-ng-cloak], .welcome-view .bottom-content .other-options-outer [ng-cloak], .welcome-view .bottom-content .other-options-outer [ng\:cloak], .welcome-view .bottom-content .other-options-outer [x-ng-cloak] {
+        display: none !important;
+    }
+
+    .welcome-view .bottom-content .other-options-outer .hidden-actions.ng-hide, .welcome-view .bottom-content .other-options-outer .other-options.ng-hide {
+        display: none !important;
+    }
+
+    .welcome-view .bottom-content .other-options-outer .hidden-actions.ng-hide-remove.ng-hide-remove-active, .welcome-view .bottom-content .other-options-outer .other-options.ng-hide-add.ng-hide-add-active, .welcome-view .bottom-content .other-options-outer .other-options.ng-hide-remove.ng-hide-remove-active .hidden-actions.ng-hide-add.ng-hide-add-active {
+        -webkit-transition: all 0s ease;
+        transition: all 0s ease;
+    }
+
+    .welcome-view .bottom-content .other-options-outer .other-options {
+        color: #FFF;
+    }
+
+    .welcome-view .bottom-content .legal-notice {
+        color: #FFF;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+        .welcome-view .bottom-content .legal-notice a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+.bg-image {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+    .bg-image .img {
+        position: absolute;
+        background-image: url("../img/backgrounds/1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: opacity 0.5s;
+        height: 100%;
+        width: 100%;
+    }
+
+.bg {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.scroll-content {
+    z-index: 2;
+}
+.fadeOut {
+    opacity: 0;
+}
