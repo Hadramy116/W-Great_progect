@@ -1,11 +1,11 @@
 {
-  "name": "toujjar",
-  "short_name": "toujjar",
+  "name": "World Great",
+  "short_name": "W-Great",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "icon.png",
+    "src": "icon.jpg",
     "sizes": "512x512",
-    "type": "image/png"
+    "type": "image/jpg"
   }]
 }

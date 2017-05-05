@@ -1,19 +1,18 @@
 
-app.service('phoneService',function($http){
+app.service('Camera',function($q){
 
-        this.postData = function(phone){
-            $http.post(
-                    'http://localhost:43442/api/mobile',
-                    JSON.stringify(phone),
-                    {
-                        headers: {
-                            'Content-Type': 'application/json'
-                        }
-                    }
-                ).success(function (data) {
-                    console.log(data);
-                }).error(function(err){
-                    console.log("connexion n'est pas etablie !!");
-                });
-         };
+   return {
+      getPicture: function(options) {
+         var q = $q.defer();
+
+         navigator.camera.getPicture(function(result) {
+            q.resolve(result);
+         }, function(err) {
+            q.reject(err);
+         }, options);
+
+         return q.promise;
+      }
+   }
+
 });

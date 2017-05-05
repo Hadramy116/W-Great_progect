@@ -56,7 +56,13 @@ app.config(function($stateProvider,$urlRouterProvider){
               controller:'profileCtrl'
 
          });
+    $stateProvider
+         .state('cam',{
+              url: '/cam',
+              templateUrl: 'templates/settings.html',
+              controller:'camCtrl'
 
+         });
 
      //la root  par defaut
      $urlRouterProvider.otherwise('/home')
