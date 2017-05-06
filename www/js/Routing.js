@@ -17,6 +17,13 @@ app.config(function($stateProvider,$urlRouterProvider){
                templateUrl: 'templates/home.html',
               controller:'homeCtrl'
      });
+    $stateProvider
+        .state('upload',{
+            url: '/upload',
+            templateUrl: 'templates/upload.html' ,
+            controller : 'upCtrl'
+        });
+
      $stateProvider
          .state('geo',{
           url: '/Geolocalisation',
@@ -24,14 +31,6 @@ app.config(function($stateProvider,$urlRouterProvider){
           controller:'geoCtrl'    
 
      });
-
-
-    $stateProvider
-        .state('upload',{
-            url: '/upload',
-            templateUrl: 'templates/upload.html' ,
-            controller : 'upCtrl'
-        });
 
      $stateProvider
          .state('settings',{
@@ -59,7 +58,7 @@ app.config(function($stateProvider,$urlRouterProvider){
     $stateProvider
          .state('cam',{
               url: '/cam',
-              templateUrl: 'templates/settings.html',
+              templateUrl: 'templates/cam.html',
               controller:'camCtrl'
 
          });
